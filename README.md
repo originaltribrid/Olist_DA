@@ -20,6 +20,16 @@ In this project, I performed end-to-end Exploratory Data Analysis (EDA) on a com
   * `matplotlib` & `seaborn` (Data visualization and statistical plotting)
 
 ---
+## 🗄️ Dataset Source
+This project uses the official **Brazilian E-Commerce Public Dataset by Olist** hosted on Kaggle. 
+
+* **Dataset Name:** Brazilian E-Commerce Public Dataset by Olist
+* **Source Link:** [Kaggle - Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+* **Description:** The dataset contains information on 100,000 orders from 2016 to 2018 made at multiple marketplaces in Brazil, covering order status, pricing, payment, freight performance, customer locations, product attributes, and customer reviews.
+
+> **Note:** Due to file size limits on GitHub, raw CSV files are not included in this repository. To run the notebook locally, please download the CSV files from the Kaggle link above and place them in your project directory.
+
+---
 
 ## 📂 Project Architecture & Workflow
 1. **Data Ingestion & Relational Merging:** Joined 5 core datasets (`orders`, `customers`, `order_items`, `payments`, and `reviews`) using unique primary/foreign keys (`order_id`, `customer_id`) to create a unified master DataFrame of **117k+ rows**.
